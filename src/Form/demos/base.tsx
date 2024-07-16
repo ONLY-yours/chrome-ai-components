@@ -19,8 +19,7 @@ const onFinishFailed: FormProps<FieldType>['onFinishFailed'] = (errorInfo) => {
 };
 
 const Base: React.FC = () => {
-  const AForm = <AIForm description="Hello dumi!" />;
-  const [form] = Form.useForm()
+  const [form] = Form.useForm();
   return (
     <AIForm
       name="basic"
